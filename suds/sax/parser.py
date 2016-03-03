@@ -36,7 +36,7 @@ from suds.sax.text import Text
 from suds.sax.attribute import Attribute
 from xml.sax import make_parser, InputSource, ContentHandler
 from xml.sax.handler import feature_external_ges
-from cStringIO import StringIO
+from StringIO import StringIO
 
 log = getLogger(__name__)
 
